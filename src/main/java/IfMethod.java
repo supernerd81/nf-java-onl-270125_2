@@ -60,6 +60,7 @@ int age = 3489;
     public static boolean palindrome(String string) {
 
         int stringLength = string.length();
+        int test;
 
         StringBuilder newString = new StringBuilder(string).reverse();
         if(newString.toString().equals(string)) {
