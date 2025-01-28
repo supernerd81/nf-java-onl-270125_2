@@ -18,6 +18,5 @@ public class HelloWorld {
         System.out.println(c + d);
         System.out.println(c < d);
         System.out.println(j - f);
-        System.out.println(j < f);
     }
 }
